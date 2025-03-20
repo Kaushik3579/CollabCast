@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react";
+import Login from "./components/Login";
 
 function App() {
-    return (
-        <div>
-            <h1>Welcome to the Screen Share App</h1>
-        </div>
-    );
+  return <Login />;
 }
 
 export default App;
