@@ -1,13 +1,18 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles.css";
 
 function Login() {
+  const navigate = useNavigate();
+
   const handleGoogleLogin = () => {
     console.log("Google Sign-In Clicked"); // Replace with actual Google Auth logic
+    navigate("/dashboard");
   };
 
   const handleAppleLogin = () => {
     console.log("Apple Sign-In Clicked"); // Replace with actual Apple Auth logic
+    navigate("/dashboard");
   };
 
   return (

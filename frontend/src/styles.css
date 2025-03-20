@@ -16,4 +16,24 @@
     cursor: pointer;
     border-radius: 5px;
   }
-  
+
+.error-message {
+  color: #ff4444;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #ffe6e6;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.loading-spinner {
+  color: #666;
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
